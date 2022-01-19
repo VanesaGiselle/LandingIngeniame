@@ -1,0 +1,532 @@
+/*
+Tipografías
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500,400italic,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+/*
+Menu
+*/
+li{
+	background-color:white;
+}
+a.navbar-style{
+	color: #333333!important;
+	font-family:'Raleway', sans-serif;
+	font-weight: normal;
+	text-align: center;
+}
+
+.subheader {
+	background-color:#00A99D;
+	width:100%;
+	height:20px;
+	color: white;
+	font-size:12px;
+}
+
+.subheader-style {
+	height:20px;
+}
+
+.subheader-menu {
+	margin: 3px;
+}
+
+.glyphicon {
+	margin-right: 3px;
+}
+
+.navbar-brand {
+	margin:0;
+	padding:0;
+}
+
+.navbar-brand-img{
+	padding: 5px 0px 5px 20px;
+	width:185px;
+	max-width: 100%;
+}
+
+.nav navbar-nav navbar-right, .navbar-collapse, .container-fluid{
+	width: 100%;
+	text-align: center;
+	background-color: white;
+}
+
+.navbar{
+	margin: 0px;
+	background-color: white!important;
+	height:70px;
+	-webkit-box-shadow: 0px 0px 20px #999999;
+	-moz-box-shadow: 0px 0px 20px #999999;
+	box-shadow: 0px 0px 20px #999999;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+	color: #FBB03B!important;
+	background-color: white;
+	font-weight: bold;
+}
+
+
+.language {
+	margin-top:12px;
+	margin-left: 0px;
+	margin-right: 0px;
+	border: 0px;
+	background-color: white;
+}
+
+.language:hover {
+	opacity: 0.6;
+}
+/*
+:link - no clickeada
+:visited - ya visitada
+:active - cuando hago click
+:focus - 
+*/
+
+/*
+Body
+*/
+
+body{
+	font-family:'Raleway', sans-serif!important;
+}
+
+.text-bold {
+	font-weight: bold;
+}
+
+#myCarousel {
+	padding-top:70px;
+	-webkit-box-shadow: 0px 0px 20px #999999;
+	-moz-box-shadow: 0px 0px 20px #999999;
+	box-shadow: 0px 0px 20px #999999;
+}
+
+.carrusel-img {
+	width: 100%;
+}
+
+#servicios {
+	padding-top: 70px;
+	text-align: center;
+}
+
+.servicios-ing {
+	background: rgba(0,169,157,.15);
+	padding: 20px;
+	margin: 20px;
+}
+
+.app-mobile{
+	max-width:100%;
+	background-color:#455FAC;
+	margin-top:20px;
+}
+
+.text-image-app {
+	text-align: right;
+}
+
+.apple {
+	padding-top: 45px;
+	padding-bottom: 20px;
+	margin-right: 30px;
+}
+
+.app-mobile-text {
+	color: white;
+	text-align:right;
+	font-size: 20px;
+	margin-right: 30px;
+}
+
+.app-mobile-img {
+	position: relative;
+	width:500px;
+	max-width:100%;
+	height: 0 auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.btn-contacto {
+	position: absolute;
+	margin-left: 200px;
+	margin-top: 100px;
+	border: 0px;
+	padding: 7px;
+	color: white;
+	background-color: #00A99D;
+	z-index:10;
+}
+
+.btn-contacto:hover{
+	text-decoration: none;
+	color: white;
+	font-weight:bold;
+	background: #7BC2B8;
+}
+
+.title-service {
+	font-size:17px;
+	font-weight:bold;
+	color:#00A99D;
+}
+
+#nosotros {
+	padding-top: 70px;
+	text-align: center;
+}
+
+.nosotros-img {
+	width: 70%;
+}
+
+.nosotros-title {
+	color: #FBB03B;
+	font-weight: bold;
+}
+
+.nosotros-text {
+	color: #333333;
+}
+
+#preguntas-frecuentes {
+	padding-top: 70px;
+	background-color: #F54747;
+}
+
+.title-preguntas-frecuentes {
+	color: white;
+	font-weight: bold;
+	margin-left: 20px;
+}
+
+.image-preguntas {
+	text-align:center;
+}
+
+.preguntas-img {
+	width:320px;
+	max-width:100%;
+	height: 0 auto;
+}
+
+.panel {
+	border: 0px!important;
+	margin-right:20px;	
+	margin-left:20px;
+	margin-top: 20px;
+}
+
+.panel-heading {
+	background-color: #FBB03B!important;
+	position:relative;
+}
+
+.panel-heading:hover {
+	background-color: black!important;
+	color: white!important;
+}
+
+panel-heading a.collapsed:after {
+    content: "\f196";
+}
+
+.panel-heading a:after {
+    content: "\f147";
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    line-height: 1;
+    margin-top: -7px;
+}
+
+.panel-title {
+	font-weight: bold;
+}
+
+.panel-title-style{
+	display: block;
+	width:100%;
+}
+
+.panel-title-style:hover {
+	text-decoration:none;
+}
+
+.panel-title-style:focus {
+	text-decoration:none;
+}
+
+.pasos-para-ingeniarte {
+	text-align: center;
+	padding: 15px;
+}
+
+.pasos-img {
+	max-width:100%;
+	height: 0 auto;
+	padding: 15px;
+}
+
+.title-pasos {
+	font-weight: bold;
+}
+
+#contacto {
+	background-color: #00A99D;
+	color: white;
+	padding-left:20px;
+	padding-right:20px;
+	padding-top: 70px;
+	padding-bottom: 60px;
+}
+
+.contacto-title{
+	font-weight: bold;
+}
+
+.avion {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	max-width: 100%;
+	height: 0 auto;
+}
+
+.contacto-info  {
+	margin-top:20px;
+	display:block;
+	background-color: rgba(255,255,255,0.2);
+	width:100%;
+	border-radius:3px;
+	padding-top: 5px;	
+	padding-bottom: 5px;
+	padding-left: 15px;
+}
+
+.contacto-icon {
+	margin-right:10px;
+
+}
+
+label {
+	margin-right: 30px;
+}
+
+.form-group {
+	margin: 0px!important;
+}
+
+.btn-enviar {
+	border: 0;
+	color: white;
+	background-color: #FBB03B;
+	padding:7px 20px 7px 20px;
+}
+
+.btn-enviar:hover {
+	color: white;
+	background-color: black;
+	font-weight: bold;
+}
+
+footer{
+	text-align:center;
+	padding:10px;
+	background-color: #FBB03B;
+	color: white;
+	width:100%;
+}
+
+
+/*ESTILO DE BOTON DE IR ARRIBA*/
+
+.boton-top {
+	display:none;
+	padding:10px;
+	background:#024959;
+	font-size:10px;
+	color:#fff;
+	cursor:pointer;
+	position: fixed;
+	bottom:10px;
+	right:20px;
+	z-index: 10000000;
+	opacity: 0.7;
+}
+
+i.i-boton-top {
+	font-size:30px;color:white;
+}
+
+
+/*MEDIA QUERY RESPONSIVE MOBILE*/
+
+
+@media only screen and (min-width: 304px) and (max-width: 319px) {
+	
+	nav.navbar-fixed-top {
+		height: 50px;
+	}
+	nav.subheader {
+		display: none;
+	}
+	#myCarousel {
+		padding-top:50px;
+	}
+	#servicios {
+		padding-top: 30px;
+	}	
+	.text-image-app {
+		text-align: center;
+	}
+	.apple {
+		width: 30px;
+		padding-top: 20px;
+		margin: 0;
+	}
+	.app-mobile-text {
+		text-align: center;
+		font-size: 15px;
+		margin:0;
+	}
+	.btn-contacto{
+		margin-left: 117px;
+		margin-top: 70px;
+		font-size: 13px;
+		padding: 5px;
+	}
+	#nosotros{
+		padding-top: 50px;
+	}	
+	#preguntas-frecuentes{
+		padding-top: 50px;
+	}	
+	#contacto{
+		padding-top: 50px;
+	}
+	.nosotros-img {
+		width:95%;
+	}
+	
+}
+
+/*MOBILE SALVO IPAD*/
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+	
+	nav.navbar-fixed-top {
+		height: 50px;
+	}
+	nav.subheader {
+		display: none;
+	}
+	#myCarousel {
+		padding-top:50px;
+	}
+	#servicios {
+		padding-top: 30px;
+	}	
+	.text-image-app {
+		text-align: center;
+	}
+	.apple {
+		width: 30px;
+		padding-top: 20px;
+		margin: 0;
+	}
+	.app-mobile-text {
+		text-align: center;
+		font-size: 15px;
+		margin:0;
+	}
+	.btn-contacto{
+		margin-left: 145px;
+		margin-top: 80px;
+	}
+	#nosotros{
+	padding-top: 50px;
+	}	
+	#preguntas-frecuentes{
+	padding-top: 50px;
+	}	
+	#contacto{
+	padding-top: 50px;
+	}
+	.nosotros-img {
+		width:95%;
+	}
+	
+}
+
+
+/*IPAD*/
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+	
+	nav.navbar-fixed-top {
+		height: 50px;
+	}
+	nav.subheader {
+		display: none;
+	}
+	#myCarousel {
+		padding-top:50px;
+	}
+	#servicios {
+	padding-top: 30px;
+	}
+	.text-image-app {
+		text-align: center;
+	}
+	.apple {
+		width: 30px;
+		padding-top: 20px;
+		margin: 0;
+	}
+	.app-mobile-text {
+		text-align: center;
+		font-size: 15px;
+		margin:0;
+	}
+	.btn-contacto{
+		margin-left: 175px;
+	}
+	#nosotros{
+	padding-top: 50px;
+	}	
+	#preguntas-frecuentes{
+	padding-top: 50px;
+	}	
+	#contacto{
+	padding-top: 50px;
+	}
+	.nosotros-img {
+		width:95%;
+	}
+}
+
+@media only screen and (max-width: 767px) and (min-width: 320px){
+.btn-contacto {
+    margin-left: 200px;
+    margin-top: 100px;
+}
+}
+
+@media only screen and (max-width: 992px) and (min-width: 768px){
+	.btn-contacto {
+		margin-left: 200px;
+	}
+}
+
+@media only screen and (min-width: 1023px) and (max-width: 1366px) {
+	
+
+
+}	
+
+
